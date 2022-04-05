@@ -3,8 +3,6 @@ import "../components/Main.css";
 
 function Scroll() {
 
-const child = { width: '300em', height: '100%' }
-
     return (
         <div className="Scroll">
             <HorizontalScroll>
