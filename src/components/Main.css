@@ -1,20 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500&family=Raleway:wght@300;400;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Cormorant', serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 /* Header */
 
 .Header {
     height: 20vh;
     padding-left: 6%;
     padding-right: 6%;
-    display: flex;
+    display: flex; 
 }
 
 .column-left {
+    font-size: 40px;
+    align-self: flex-end;
     width: 50%;
     border-bottom: 2px solid #2A92CC;
 }
 
 .column-right {
+    align-self: flex-end;
+    text-align: end;
     width: 50%;
     border-bottom: 2px solid #2A92CC;
+}
+
+.column-right a {
+    font-size: 28px;
+    padding-left: 5%;
+    color: black;
+    text-decoration: none;
+}
+
+/* HomeContent */
+
+.HomeContent {
+    height: 70vh;
+    padding-left: 6%;
+    padding-right: 6%;
+    display: flex; 
+}
+
+.left-section {
+    width: 50%;
+}
+
+.right-section {
+    width: 50%;
+}
+
+.tall {
+    height: 650px;
+    width: auto;
+}
+
+.square {
+    width: 550px;
+    height: auto;
+}
+
+.little-square {
+    width: 150px;
+    height: auto;
 }
 
 /* Scroll */
@@ -29,4 +80,3 @@
     height: 100vh;
     background-color: #FFDFD3;
 }
-

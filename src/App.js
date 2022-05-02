@@ -1,11 +1,10 @@
 import './App.css';
-import Header from './components/Header';
-import Scroll from './components/Scroll';
+import Home from './pages/Home';
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      <Home/>
     </div>
   );
 }
