@@ -15,9 +15,9 @@ function HomeContent() {
             <div className="right-section">
                 <img className='square' alt='painting' src={painting17}></img>
                 <div>
-                    <img className='little-square' alt='painting' src={painting3}></img>
-                    <img className='little-square' alt='painting' src={painting4}></img>
-                    <img className='little-square' alt='painting' src={painting8}></img>
+                    <img className='little-square1' alt='painting' src={painting3}></img>
+                    <img className='little-square2' alt='painting' src={painting4}></img>
+                    <img className='little-square3' alt='painting' src={painting8}></img>
                 </div>
             </div>
         </div>

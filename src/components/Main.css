@@ -9,7 +9,7 @@ body {
 /* Header */
 
 .Header {
-    height: 20vh;
+    height: 10vh;
     padding-left: 6%;
     padding-right: 6%;
     display: flex; 
@@ -39,32 +39,71 @@ body {
 /* HomeContent */
 
 .HomeContent {
-    height: 70vh;
+    height: 80vh;
     padding-left: 6%;
     padding-right: 6%;
     display: flex; 
 }
 
 .left-section {
+    display: grid;
+    align-content: space-around;
+    justify-content: space-around;
+    justify-items: center;
     width: 50%;
 }
 
 .right-section {
+    display: grid;
+    justify-content: space-around;
+    align-content: space-around;
+    justify-items: center;
     width: 50%;
 }
 
 .tall {
-    height: 650px;
-    width: auto;
+    height: auto;
+    width: 580px;
+    max-width: 100%;
 }
 
 .square {
-    width: 550px;
     height: auto;
+    width: 530px;
+    max-width: 100%;
 }
 
-.little-square {
+.little-square1 {
+    padding: 20px;
+    height: auto;
     width: 150px;
+    max-width: 100%;
+}
+
+.little-square2 {
+    padding: 20px;
+    height: auto;
+    width: 150px;
+    max-width: 100%;
+}
+
+.little-square3 {
+    padding: 20px;
+    height: auto;
+    width: 150px;
+    max-width: 100%;
+}
+
+/* Footer */
+.Footer {
+    height: 10vh;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.social-media {
+    padding: 10px;
+    width: 40px;
     height: auto;
 }
 
